@@ -1,0 +1,94 @@
+{
+  "company": {
+    "name": "Maruti Chemicals",
+    "tagline": "Trusted solutions for healthcare, pharmaceutical and food industries.",
+    "email": "maruti_chemicals@yahoo.com",
+    "enquiryEmail": "jadaunprinci11@gmail.com",
+    "phones": ["+91 98102 65053", "0120-4557740"],
+    "contactName": "Pankaj Gupta",
+    "address": ["II-C/199, Nehru Nagar", "Ghaziabad (U.P.) — 201001"],
+    "businessHours": "Monday – Saturday · 9:00 AM – 6:00 PM",
+    "experience": "10+ years",
+    "customers": "250+",
+    "productCategories": "20+"
+  },
+  "categories": [
+    {
+      "id": "pharma",
+      "name": "Pharmaceutical Industry",
+      "shortName": "Pharmaceutical",
+      "description": "Products to support pharmaceutical production, contamination control, sterile operations and quality assurance.",
+      "productIds": ["liquid-sampling-bags", "sterile-tape", "pharma-cleanroom-wipes", "pharma-coveralls", "pharma-shoe-covers", "pharma-nitrile-gloves", "pharma-face-masks", "pharma-sterile-pouches", "pharma-labels", "pharma-surface-disinfectant"]
+    },
+    {
+      "id": "food",
+      "name": "Food Industry",
+      "shortName": "Food processing",
+      "description": "Sampling and hygiene solutions for food and beverage, dairy production, testing and quality control.",
+      "productIds": ["liquid-sampling-bags", "food-ph-solution", "food-nitrile-gloves", "food-hairnets", "food-surface-sanitizer", "food-test-swabs", "food-cleaning-wipes", "food-sample-containers", "food-protective-aprons", "food-lab-sample-bottles"]
+    },
+    {
+      "id": "healthcare",
+      "name": "Hospitals & Healthcare",
+      "shortName": "Hospitals & healthcare",
+      "description": "Dependable medical consumables and essential healthcare products for hospitals, diagnostic labs and clinics.",
+      "productIds": ["sterile-tape", "healthcare-exam-gloves", "healthcare-surgical-masks", "healthcare-gauze-rolls", "healthcare-adhesive-dressings", "healthcare-specimen-containers", "healthcare-hand-sanitizer", "healthcare-disposable-aprons", "healthcare-cotton-rolls", "healthcare-wound-care-tape"]
+    },
+    {
+      "id": "cleanroom",
+      "name": "Clean Room Products",
+      "shortName": "Clean room",
+      "description": "Contamination-control consumables for controlled environments and sterile operations.",
+      "productIds": ["sterile-tape", "cleanroom-wipes", "cleanroom-coveralls", "cleanroom-shoe-covers", "cleanroom-face-masks", "cleanroom-gloves", "cleanroom-sticky-mats", "cleanroom-caps", "cleanroom-sleeve-covers", "cleanroom-surface-cleaner"]
+    }
+  ],
+  "products": [
+    {
+      "id": "liquid-sampling-bags",
+      "name": "Liquid Sampling Bags",
+      "subtitle": "Sterile, leak-resistant sample collection",
+      "description": "Sterile bags for collecting, transporting and storing liquid samples while helping protect sample integrity.",
+      "applications": [
+        "Pharmaceutical manufacturing",
+        "Biotechnology",
+        "Food & beverage",
+        "Dairy industry",
+        "Water testing",
+        "Laboratory testing",
+        "Environmental monitoring"
+      ],
+      "features": [
+        "Sterile and ready to use",
+        "Leak-resistant construction",
+        "Chemical compatibility",
+        "Secure sample collection",
+        "Multiple sizes available",
+        "Specifications available on request"
+      ],
+      "categoryIds": ["pharma", "food"]
+    },
+    {
+      "id": "sterile-tape",
+      "name": "Sterile Tape",
+      "subtitle": "For cleanroom and pharmaceutical environments",
+      "description": "Sterile adhesive tape for cleanroom operations, pharmaceutical manufacturing, hospitals and laboratory settings.",
+      "applications": [
+        "Cleanrooms",
+        "Pharmaceutical manufacturing",
+        "Hospitals",
+        "Laboratories",
+        "Sterilization processes",
+        "Packaging applications"
+      ],
+      "features": [
+        "Sterile",
+        "Strong adhesion",
+        "Clean removal",
+        "Durable construction",
+        "For controlled environments",
+        "Product details available on request"
+      ],
+      "categoryIds": ["pharma", "healthcare", "cleanroom"]
+    }
+  ]
+}
